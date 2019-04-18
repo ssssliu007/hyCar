@@ -1,0 +1,111 @@
+placeholder-color = #ddd
+#app
+  .plc0::input-placeholder
+    color placeholder-color
+  .plc0::-webkit-input-placeholder
+    color placeholder-color
+  .plc0::-moz-placeholder
+    color placeholder-color
+  .plc0:-moz-placeholder
+    color placeholder-color
+  .plc0:-ms-input-placeholder
+    color placeholder-color
+    // min-height initial
+    // height inherit
+    // margin-top: 1px;
+  // .bt-i-wrapper
+  //   width: inherit
+  .icon
+    display: block
+    width: 1.15rem
+    min-height 1rem
+    height 100%
+    background: center/contain no-repeat
+  .toggle-icon
+    background-image: url('../assets/down.png')
+    transition: all .3s ease-out
+    transform: rotateZ(0deg)
+    &.active
+      transform: rotateZ(-180deg)
+  .free-icon
+    background-image url('../assets/is_ck0.png')
+    &.active
+      background-image url('../assets/is_ck1.png')
+.btn-danger.sp2
+  background-color #e63737
+  border-color: #e63737
+#home
+  .list
+    .bt-i-wrapper
+      min-height calc(100vh - 7.5rem + 1px)
+.no-img
+  background-image:  url('https://pc.hcar.cc/img/no_img.svg')!important
+.pre_loading_css
+  width: 5rem
+  position: absolute
+  /* padding-top: 150px; */
+  left: 50%
+  top: 50%
+  margin-left: -2.5rem
+  margin-top: -.5rem
+  &>*
+    display: block;
+    position: absolute;
+    font-size: 0;
+    background-color: #1abc9c;
+    width: 20%;
+    padding-top: 20%;
+    transform:scale(.8)
+    animation: pre_loading_4_gif .7s infinite alternate cubic-bezier(0.9, 0.12, 0.32, 0.88);
+  &>*:nth-child(1)
+    left: 0;
+  &>*:nth-child(2)
+    left: 20%;
+  &>*:nth-child(3)
+    left: 40%;
+  &>*:nth-child(4)
+    left: 60%;
+  &>*:nth-child(5)
+    left: 80%;
+
+@keyframes pre_loading_4_gif {
+  0% {
+    transform:scale(.8)
+    }
+  100%{ 
+    left: 40%
+    transform:scale(2.2)
+    }
+}
+.datepicker
+  width 100%
+#app
+  .text-sm
+    font-size .8rem
+  .datepicker-popup
+    &
+    .calendar-head .calendar-year-select
+    .calendar-head .calendar-month-select
+      font-size: 1rem
+      a
+        font-size 1.15rem
+    .calendar-body
+      width 16.3em
+    .calendar-head
+      height 2.83em
+    .calendar-date-selected
+    .calendar-date-selected:hover
+      color: #fff
+  .datepicker
+    &>input
+      height 2.3em
+  .right.datepicker
+    .datepicker-popup
+      right 0
+
+  .k-ball
+    .k-ball-a
+    .k-ball-b
+    .k-ball-c
+    .k-ball-d
+      background-color: #1abc9a

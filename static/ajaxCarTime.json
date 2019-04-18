@@ -1,0 +1,21 @@
+{
+  "list": [{
+      "name": "文本",
+      "old_value": "343456666666",
+      "new_value": "34345666666677777",
+      "diff_value": "0",
+      "created_at": "2019-04-17 15:53:09",
+      "op_member_id": "13045",
+      "op_member_name": "魔链DEMO账号01"
+    },
+    {
+      "name": "文本",
+      "old_value": "34345",
+      "new_value": "343456666666",
+      "diff_value": "0",
+      "created_at": "2019-04-17 15:48:50",
+      "op_member_id": "13045",
+      "op_member_name": "魔链DEMO账号01"
+    }
+  ]
+}
